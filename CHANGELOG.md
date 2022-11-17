@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/busyhe/monorepo-template/compare/v1.1.0...v1.2.0) (2022-11-17)
+
+
+### Features
+
+* update yarn lock ([2800283](https://github.com/busyhe/monorepo-template/commit/2800283ae9a559820fd2bd7b2ace88c49a84808e))
+
 # [1.1.0](https://github.com/busyhe/monorepo-template/compare/v1.0.0...v1.1.0) (2022-11-17)
 
 
