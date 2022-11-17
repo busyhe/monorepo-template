@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/busyhe/monorepo-template/compare/v1.0.0...v1.1.0) (2022-11-17)
+
+
+### Features
+
+* add app workpspace demo ([1e8daa0](https://github.com/busyhe/monorepo-template/commit/1e8daa0f3c9a27d5d0e0833560346b9ac881169c))
+
 # 1.0.0 (2022-11-17)
 
 
