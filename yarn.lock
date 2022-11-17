@@ -848,6 +848,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"app@workspace:packages/app":
+  version: 0.0.0-use.local
+  resolution: "app@workspace:packages/app"
+  languageName: unknown
+  linkType: soft
+
 "aproba@npm:^1.0.3 || ^2.0.0, aproba@npm:^2.0.0":
   version: 2.0.0
   resolution: "aproba@npm:2.0.0"
@@ -4139,12 +4145,6 @@ __metadata:
   checksum: 1d38588e520dab7cea67cbbe2efdd86a10cc7a074c09657635e34f035277b59fbb57d09d8638346bf7090f8e8ebc070c96fa5fd183b777fff4f5edff5e9466cf
   languageName: node
   linkType: hard
-
-"project@workspace:packages/project":
-  version: 0.0.0-use.local
-  resolution: "project@workspace:packages/project"
-  languageName: unknown
-  linkType: soft
 
 "promise-all-reject-late@npm:^1.0.0":
   version: 1.0.1

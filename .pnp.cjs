@@ -16,15 +16,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:."\
       },\
       {\
-        "name": "project",\
-        "reference": "workspace:packages/project"\
+        "name": "app",\
+        "reference": "workspace:packages/app"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["monorepo-template", ["workspace:."]],\
-      ["project", ["workspace:packages/project"]]\
+      ["app", ["workspace:packages/app"]],\
+      ["monorepo-template", ["workspace:."]]\
     ],\
     "fallbackPool": [\
       [\
@@ -326,6 +326,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [\
         "ansicolors",\
         "npm:0.3.2"\
+      ],\
+      [\
+        "app",\
+        "workspace:packages/app"\
       ],\
       [\
         "aproba",\
@@ -1546,10 +1550,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [\
         "process-nextick-args",\
         "npm:2.0.1"\
-      ],\
-      [\
-        "project",\
-        "workspace:packages/project"\
       ],\
       [\
         "promise-all-reject-late",\
@@ -3088,6 +3088,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ansicolors", "npm:0.3.2"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["app", [\
+        ["workspace:packages/app", {\
+          "packageLocation": "./packages/app/",\
+          "packageDependencies": [\
+            ["app", "workspace:packages/app"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["aproba", [\
@@ -6820,15 +6829,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["process-nextick-args", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
-        }]\
-      ]],\
-      ["project", [\
-        ["workspace:packages/project", {\
-          "packageLocation": "./packages/project/",\
-          "packageDependencies": [\
-            ["project", "workspace:packages/project"]\
-          ],\
-          "linkType": "SOFT"\
         }]\
       ]],\
       ["promise-all-reject-late", [\
