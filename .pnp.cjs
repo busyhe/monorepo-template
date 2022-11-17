@@ -18,12 +18,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "app",\
         "reference": "workspace:packages/app"\
+      },\
+      {\
+        "name": "doc",\
+        "reference": "workspace:packages/doc"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
       ["app", ["workspace:packages/app"]],\
+      ["doc", ["workspace:packages/doc"]],\
       ["monorepo-template", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -662,6 +667,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [\
         "dir-glob",\
         "npm:3.0.1"\
+      ],\
+      [\
+        "doc",\
+        "workspace:packages/doc"\
       ],\
       [\
         "dot-prop",\
@@ -4058,6 +4067,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-type", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["doc", [\
+        ["workspace:packages/doc", {\
+          "packageLocation": "./packages/doc/",\
+          "packageDependencies": [\
+            ["doc", "workspace:packages/doc"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["dot-prop", [\

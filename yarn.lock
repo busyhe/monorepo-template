@@ -1680,6 +1680,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"doc@workspace:packages/doc":
+  version: 0.0.0-use.local
+  resolution: "doc@workspace:packages/doc"
+  languageName: unknown
+  linkType: soft
+
 "dot-prop@npm:^5.1.0":
   version: 5.3.0
   resolution: "dot-prop@npm:5.3.0"
