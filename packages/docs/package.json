@@ -3,9 +3,9 @@
     "description": "A docs package",
     "author": "busyhe <busyhe@qq.com>",
     "scripts": {
-        "docs:dev": "vitepress dev docs",
-        "docs:build": "vitepress build docs",
-        "docs:serve": "vitepress serve docs"
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "serve": "vitepress serve"
     },
     "packageManager": "yarn@3.3.0",
     "devDependencies": {

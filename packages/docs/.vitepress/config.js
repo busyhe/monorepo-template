@@ -33,7 +33,7 @@ function nav() {
         { text: 'Configs', link: '/config/introduction', activeMatch: '/config/' },
         {
             text: 'Changelog',
-            link: 'https://github.com/wfe-templates/vitepress/releases'
+            link: 'https://github.com/busyhe/monorepo-template/releases'
         }
     ]
 }
