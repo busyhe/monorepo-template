@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/busyhe/monorepo-template/compare/v1.2.0...v1.2.1) (2022-12-01)
+
+
+### Bug Fixes
+
+* remove yarn httpsProxy ([6f362ab](https://github.com/busyhe/monorepo-template/commit/6f362ab220eb6330ca9d40ea823fc9212bc42bb5))
+* solve docs build ([35bc681](https://github.com/busyhe/monorepo-template/commit/35bc681514240570a8a4c95f5122d4b31c3f3704))
+
 # [1.2.0](https://github.com/busyhe/monorepo-template/compare/v1.1.0...v1.2.0) (2022-11-17)
 
 
