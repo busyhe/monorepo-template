@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/busyhe/monorepo-template/compare/v1.2.1...v1.3.0) (2023-01-10)
+
+
+### Features
+
+* **app:** app package ([6adf3f7](https://github.com/busyhe/monorepo-template/commit/6adf3f7d395106575371a157a88edd27ecf06b1c))
+
 ## [1.2.1](https://github.com/busyhe/monorepo-template/compare/v1.2.0...v1.2.1) (2022-12-01)
 
 
