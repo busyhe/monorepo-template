@@ -9,9 +9,9 @@
     },
     "packageManager": "yarn@3.3.0",
     "devDependencies": {
-        "@vueuse/core": "^9.6.0",
+        "@vueuse/core": "^9.10.0",
         "body-scroll-lock": "^4.0.0-beta.0",
-        "vitepress": "^1.0.0-alpha.29",
+        "vitepress": "^1.0.0-alpha.36",
         "vue": "^3.2.45"
     }
 }
