@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Button, DatePicker, Space, version } from "antd";
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -16,6 +17,13 @@ function App() {
                 </a>
             </div>
             <h1>Vite + React</h1>
+            <div>
+                <h1>antd version: {version}</h1>
+                <Space>
+                    <DatePicker />
+                    <Button type="primary">Primary Button</Button>
+                </Space>
+            </div>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
