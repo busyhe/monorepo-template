@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/busyhe/monorepo-template/compare/v1.3.0...v1.4.0) (2023-01-13)
+
+
+### Bug Fixes
+
+* remove eslint plugin ([5b41332](https://github.com/busyhe/monorepo-template/commit/5b413322f2bd0c3372858eefa2c56380246cf6a3))
+* typescript cionfig ([e59bc48](https://github.com/busyhe/monorepo-template/commit/e59bc481c6b6d2ae0e31ee8e9b94e7bc2ffad605))
+
+
+### Features
+
+* **docs:** github pages ([9957583](https://github.com/busyhe/monorepo-template/commit/9957583e4b7e1f07c5cc28d6627bc3db2bd15ae6))
+* **docs:** update package version ([8267b72](https://github.com/busyhe/monorepo-template/commit/8267b72e837deba5e162163cc4f1ac4e6f625fc2))
+
 # [1.3.0](https://github.com/busyhe/monorepo-template/compare/v1.2.1...v1.3.0) (2023-01-10)
 
 
