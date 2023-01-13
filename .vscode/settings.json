@@ -7,6 +7,10 @@
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
 "typescript.enablePromptUseWorkspaceTsdk": true,
 "cSpell.words": [
+    "peaceiris",
     "vueuse"
-]
+],
+"yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/busyhe/Workspace/my_projects/monorepo-template/.github/workflows/deploy.yml"
+}
 }

@@ -5,6 +5,7 @@
  * Description:
  */
 export default {
+    base: '/monorepo-template/',
     title: 'docs',
     appearance: true,
     lastUpdated: true,
