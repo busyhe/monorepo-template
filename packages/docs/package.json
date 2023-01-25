@@ -1,5 +1,5 @@
 {
-    "name": "docs",
+    "name": "@template/docs",
     "description": "A docs package",
     "author": "busyhe <busyhe@qq.com>",
     "scripts": {
@@ -7,7 +7,6 @@
         "build": "vitepress build",
         "serve": "vitepress serve"
     },
-    "packageManager": "yarn@3.3.0",
     "devDependencies": {
         "@vueuse/core": "^9.10.0",
         "body-scroll-lock": "^4.0.0-beta.0",

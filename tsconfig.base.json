@@ -97,11 +97,13 @@
     "references": [
         {
             "path": "./packages/app"
+        },
+        {
+            "path": "./packages/vue"
         }
     ],
     "exclude": [
         ".cache/**/*",
-        ".yarn/**/*",
         "*/dist/**/*"
     ]
 }

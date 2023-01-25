@@ -1,5 +1,5 @@
 {
-    "name": "monorepo-template",
+    "name": "template",
     "description": "A monorepo project",
     "author": "busyhe <busyhe@qq.com>",
     "version": "1.4.0",
@@ -12,7 +12,6 @@
     "license": "MIT",
     "keywords": [
         "monorepo",
-        "yarn",
         "typescript"
     ],
     "workspaces": [

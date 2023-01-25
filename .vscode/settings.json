@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "peaceiris",
+        "rushstack",
+        "unplugin"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///Users/busyhe/workspace/my_projects/monorepo-template/.github/workflows/deploy.yml"
+    }
+}
