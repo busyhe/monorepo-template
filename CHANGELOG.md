@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/busyhe/monorepo-template/compare/v1.4.0...v1.5.0) (2023-01-25)
+
+
+### Bug Fixes
+
+* husky yarn to pnpm ([7ea41cc](https://github.com/busyhe/monorepo-template/commit/7ea41cc40fce1e7f31cda967eca7cb0251fbbd33))
+
+
+### Features
+
+* **app:** add antd ([f80e73b](https://github.com/busyhe/monorepo-template/commit/f80e73b84fd0e6aea44a982d8ba8f069198824f8))
+* change yarn package manage to pnpm ([30e34b9](https://github.com/busyhe/monorepo-template/commit/30e34b9e42cd4b5ee0bbd4f0e8d4d9d478f761c0))
+
 # [1.4.0](https://github.com/busyhe/monorepo-template/compare/v1.3.0...v1.4.0) (2023-01-13)
 
 
