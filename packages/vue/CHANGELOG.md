@@ -1,5 +1,11 @@
 # @template/vue
 
+## 5.0.0
+
+### Major Changes
+
+- [`ff31076d`](https://github.com/busyhe/monorepo-template/commit/ff31076d5fed61a559410be9b11548f297403a9e) Thanks [@busyhe](https://github.com/busyhe)! - test
+
 ## 4.0.0
 
 ### Major Changes
