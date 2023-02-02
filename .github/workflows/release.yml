@@ -1,22 +1,26 @@
-name: release
+name: Release
 on:
   push:
     branches:
       - master
+<<<<<<< HEAD
 env:
   HUSKY: 0
+=======
+>>>>>>> 06bc2685 (fix(ci): remove changesets branches)
 jobs:
-  version:
-    timeout-minutes: 15
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: checkout code repository
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: setup node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
+<<<<<<< HEAD
           node-version: 18
       - name: install pnpm
         run: npm i pnpm@latest -g
@@ -35,3 +39,30 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           Npm_TOKEN: ${{ secrets.NPM_TOKEN }}
+=======
+          node-version: 'lts/*'
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: HUSKY=0 pnpm semantic-release
+>>>>>>> 06bc2685 (fix(ci): remove changesets branches)
