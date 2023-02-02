@@ -6,7 +6,7 @@
     "main": "index.js",
     "scripts": {
         "postinstall": "husky install",
-        "preinstall": "npm only-allow pnpm",
+        "preinstall": "npx only-allow pnpm",
         "prepack": "pinst --disable",
         "postpack": "pinst --enable",
         "ci:version": "changeset version",
