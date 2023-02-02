@@ -10,7 +10,7 @@
         "prepack": "pinst --disable",
         "postpack": "pinst --enable",
         "ci:version": "changeset version",
-        "ci:publish": "pnpm publish -r"
+        "ci:publish": "changeset publish"
     },
     "license": "MIT",
     "keywords": [
