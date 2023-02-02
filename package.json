@@ -7,8 +7,7 @@
     "scripts": {
         "postinstall": "husky install",
         "prepack": "pinst --disable",
-        "postpack": "pinst --enable",
-        "ci:publish": "pnpm publish -r"
+        "postpack": "pinst --enable"
     },
     "license": "MIT",
     "keywords": [
