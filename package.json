@@ -18,6 +18,7 @@
         "packages/*"
     ],
     "devDependencies": {
+        "@changesets/cli": "^2.26.0",
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/git": "^10.0.1",
         "@typescript-eslint/eslint-plugin": "latest",
