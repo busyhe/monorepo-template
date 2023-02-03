@@ -37,7 +37,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm -F @template/docs build
+        run: pnpm -F @busyhe/template-docs build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
