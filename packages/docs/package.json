@@ -2,6 +2,8 @@
     "name": "@template/docs",
     "description": "A docs package",
     "author": "busyhe <busyhe@qq.com>",
+    "private": false,
+    "version": "0.0.0",
     "scripts": {
         "dev": "vitepress dev",
         "build": "vitepress build",
