@@ -1,5 +1,11 @@
 # @template/docs
 
+## 5.0.0
+
+### Major Changes
+
+- [`cd68cb77`](https://github.com/busyhe/monorepo-template/commit/cd68cb77055a4496b533dd728bb2cb210a52fd57) Thanks [@busyhe](https://github.com/busyhe)! - 123
+
 ## 4.0.0
 
 ### Major Changes
