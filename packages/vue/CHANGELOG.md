@@ -1,5 +1,11 @@
 # @template/vue
 
+## 9.0.0
+
+### Major Changes
+
+- 123
+
 ## 8.0.0
 
 ### Major Changes
