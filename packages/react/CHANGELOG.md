@@ -1,5 +1,11 @@
 # @template/react
 
+## 3.0.0
+
+### Major Changes
+
+- [`0eebce9b`](https://github.com/busyhe/monorepo-template/commit/0eebce9b6d1e817fdb788cee02361950abd0fb7c) Thanks [@busyhe](https://github.com/busyhe)! - remove publish
+
 ## 2.0.0
 
 ### Major Changes
