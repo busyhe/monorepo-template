@@ -30,7 +30,8 @@ jobs:
           version: pnpm ci:version
           commit: "chore: update versions"
           title: "chore: update versions"
-          publish: "pnpm -r run build"
+          publish: "pnpm ci:publish"
           createGithubReleases: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          Npm_TOKEN: ${{ secrets.NPM_TOKEN }}

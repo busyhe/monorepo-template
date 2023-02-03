@@ -1,5 +1,5 @@
 {
-    "name": "@template/vue",
+    "name": "@busyhe/template-vue",
     "version": "9.0.0",
     "private": false,
     "scripts": {
