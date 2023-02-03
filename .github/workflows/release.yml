@@ -3,11 +3,6 @@ on:
   push:
     branches:
       - master
-<<<<<<< HEAD
-env:
-  HUSKY: 0
-=======
->>>>>>> 06bc2685 (fix(ci): remove changesets branches)
 jobs:
   release:
     name: Release
@@ -20,26 +15,6 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-<<<<<<< HEAD
-          node-version: 18
-      - name: install pnpm
-        run: npm i pnpm@latest -g
-      - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
-      - name: install dependencies
-        run: pnpm install
-      - name: create and publish versions
-        uses: changesets/action@v1
-        with:
-          version: pnpm ci:version
-          commit: "chore: update versions"
-          title: "chore: update versions"
-          publish: "pnpm ci:publish"
-          createGithubReleases: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          Npm_TOKEN: ${{ secrets.NPM_TOKEN }}
-=======
           node-version: 'lts/*'
       - uses: pnpm/action-setup@v2
         name: Install pnpm
@@ -65,4 +40,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: HUSKY=0 pnpm semantic-release
->>>>>>> 06bc2685 (fix(ci): remove changesets branches)
