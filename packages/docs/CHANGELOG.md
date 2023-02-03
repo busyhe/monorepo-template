@@ -1,5 +1,11 @@
 # @template/docs
 
+## 5.0.1
+
+### Patch Changes
+
+- [`cb1d24a5`](https://github.com/busyhe/monorepo-template/commit/cb1d24a51d02677f6df7e499ff0e4e055106a933) Thanks [@busyhe](https://github.com/busyhe)! - no npm
+
 ## 5.0.0
 
 ### Major Changes
