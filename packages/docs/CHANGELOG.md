@@ -1,5 +1,11 @@
 # @template/docs
 
+## 4.0.0
+
+### Major Changes
+
+- [`f2768dd0`](https://github.com/busyhe/monorepo-template/commit/f2768dd0dfb51ac6d0376a7a7202f4b48d9f960c) Thanks [@busyhe](https://github.com/busyhe)! - test
+
 ## 3.0.0
 
 ### Major Changes
