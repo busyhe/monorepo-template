@@ -2,7 +2,7 @@
     "name": "busyhe-template",
     "description": "A monorepo project",
     "author": "busyhe <busyhe@qq.com>",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "main": "index.js",
     "scripts": {
         "build": "pnpm -r run build",
