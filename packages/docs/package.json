@@ -1,5 +1,5 @@
 {
-    "name": "@template/docs",
+    "name": "@busyhe/template-docs",
     "description": "A docs package",
     "author": "busyhe <busyhe@qq.com>",
     "private": false,

@@ -1,5 +1,11 @@
 # @template/vue
 
+## 11.0.0
+
+### Major Changes
+
+- 123
+
 ## 10.0.0
 
 ### Major Changes
