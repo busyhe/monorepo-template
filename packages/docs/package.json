@@ -3,7 +3,7 @@
     "description": "A docs package",
     "author": "busyhe <busyhe@qq.com>",
     "private": false,
-    "version": "5.0.0",
+    "version": "5.0.1",
     "scripts": {
         "dev": "vitepress dev",
         "build": "vitepress build",
