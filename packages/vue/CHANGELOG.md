@@ -1,5 +1,11 @@
 # @template/vue
 
+## 11.0.1
+
+### Patch Changes
+
+- [`67fdc679`](https://github.com/busyhe/monorepo-template/commit/67fdc679f885683213973437cd9aa815bfef38a2) Thanks [@busyhe](https://github.com/busyhe)! - test123
+
 ## 11.0.0
 
 ### Major Changes
