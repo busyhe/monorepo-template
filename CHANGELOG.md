@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/busyhe/monorepo-template/compare/v1.5.1...v1.5.2) (2023-02-07)
+
+
+### Bug Fixes
+
+* **ci:** remove other file ([51024cc](https://github.com/busyhe/monorepo-template/commit/51024cc03a9074ac509cf1ab5a4382f51c27894b))
+
 ## [1.5.1](https://github.com/busyhe/monorepo-template/compare/v1.5.0...v1.5.1) (2023-02-03)
 
 
