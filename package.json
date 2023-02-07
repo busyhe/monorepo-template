@@ -1,5 +1,5 @@
 {
-    "name": "busyhe-template",
+    "name": "monorepo-template",
     "description": "A monorepo project",
     "author": "busyhe <busyhe@qq.com>",
     "version": "1.5.1",
@@ -9,9 +9,7 @@
         "postinstall": "husky install",
         "preinstall": "npx only-allow pnpm",
         "prepack": "pinst --disable",
-        "postpack": "pinst --enable",
-        "ci:version": "changeset version",
-        "ci:publish": "pnpm -r run build && changeset publish"
+        "postpack": "pinst --enable"
     },
     "license": "MIT",
     "keywords": [

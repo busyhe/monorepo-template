@@ -96,7 +96,7 @@
     },
     "references": [
         {
-            "path": "./packages/app"
+            "path": "./packages/react"
         },
         {
             "path": "./packages/vue"
