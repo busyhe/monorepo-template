@@ -28,8 +28,8 @@ export default defineConfig({
             copyright: 'Copyright © 2019-present busyhe <busyhe@qq.com>'
         },
         algolia: {
-            appId: '7D862EPLSM',
-            apiKey: '3c565302f60dfe89e9e9a3c338c691c1',
+            appId: 'X3IHGJTWF2',
+            apiKey: '3293e377e1b797d5cabbb3d4fc6ba596',
             indexName: 'monorepo-template'
         }
     }
