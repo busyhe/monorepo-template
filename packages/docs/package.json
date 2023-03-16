@@ -24,9 +24,9 @@
         }
     ],
     "devDependencies": {
-        "@vueuse/core": "^9.12.0",
+        "@vueuse/core": "^9.13.0",
         "body-scroll-lock": "^4.0.0-beta.0",
-        "vitepress": "^1.0.0-alpha.45",
+        "vitepress": "^1.0.0-alpha.60",
         "vue": "^3.2.47"
     }
 }

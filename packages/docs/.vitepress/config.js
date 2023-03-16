@@ -4,7 +4,9 @@
  * Email: busyhe@qq.com
  * Description:
  */
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
     base: '/monorepo-template/',
     title: 'docs',
     appearance: true,
@@ -24,9 +26,14 @@ export default {
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2019-present busyhe <busyhe@qq.com>'
+        },
+        algolia: {
+            appId: '7D862EPLSM',
+            apiKey: '3c565302f60dfe89e9e9a3c338c691c1',
+            indexName: 'monorepo-template'
         }
     }
-}
+})
 
 function nav() {
     return [
