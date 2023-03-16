@@ -32,7 +32,18 @@ export default defineConfig({
             apiKey: '3293e377e1b797d5cabbb3d4fc6ba596',
             indexName: 'monorepo-template'
         }
-    }
+    },
+    head: [
+        [
+            'script',
+            { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-RPSQ3TMDXQ' }
+        ],
+        [
+            'script',
+            {},
+            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-RPSQ3TMDXQ');"
+        ]
+    ]
 })
 
 function nav() {
