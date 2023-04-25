@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/busyhe/monorepo-template/compare/v1.6.0...v1.7.0) (2023-04-25)
+
+
+### Features
+
+* **tailwindcss:** add tailwindcss ([0822ad8](https://github.com/busyhe/monorepo-template/commit/0822ad891085604a9a314af4b825cee5eb30979e))
+
+
+### Performance Improvements
+
+* **packages:** update version ([7187e1f](https://github.com/busyhe/monorepo-template/commit/7187e1fa009b28e868536dd389202fe6f0056f79))
+
 # [1.6.0](https://github.com/busyhe/monorepo-template/compare/v1.5.2...v1.6.0) (2023-03-16)
 
 
