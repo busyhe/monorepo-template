@@ -18,7 +18,7 @@ function App() {
             </div>
             <h1>Vite + React</h1>
             <div>
-                <h1>antd version: {version}</h1>
+                <h1 className="text-3xl font-bold underline">antd version: {version}</h1>
                 <Space>
                     <DatePicker />
                     <Button type="primary">Primary Button</Button>

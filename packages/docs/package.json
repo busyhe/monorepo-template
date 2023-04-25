@@ -26,11 +26,7 @@
     "devDependencies": {
         "@vueuse/core": "^9.13.0",
         "body-scroll-lock": "^4.0.0-beta.0",
-<<<<<<< HEAD
-        "vitepress": "^1.0.0-alpha.60",
-=======
         "vitepress": "^1.0.0-alpha.65",
->>>>>>> c30cf789 (perf(packages): update version)
         "vue": "^3.2.47"
     }
 }
