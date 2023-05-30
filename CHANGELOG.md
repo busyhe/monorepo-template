@@ -1,3 +1,10 @@
+# [1.8.0-beta.2](https://github.com/busyhe/monorepo-template/compare/v1.8.0-beta.1...v1.8.0-beta.2) (2023-05-30)
+
+
+### Bug Fixes
+
+* **release:** update readme ([#22](https://github.com/busyhe/monorepo-template/issues/22)) ([4ca5363](https://github.com/busyhe/monorepo-template/commit/4ca53630a0c5289cc849e344f29d9400ce5f0e29))
+
 # [1.8.0-beta.1](https://github.com/busyhe/monorepo-template/compare/v1.7.0...v1.8.0-beta.1) (2023-05-30)
 
 
