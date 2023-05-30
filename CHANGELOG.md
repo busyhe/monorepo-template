@@ -1,3 +1,10 @@
+# [1.8.0-beta.1](https://github.com/busyhe/monorepo-template/compare/v1.7.0...v1.8.0-beta.1) (2023-05-30)
+
+
+### Features
+
+* **release:** github action add dev branch ([6745f74](https://github.com/busyhe/monorepo-template/commit/6745f745a479fa28b7246ed6b52dfa5c8dc9d3a8))
+
 # [1.7.0](https://github.com/busyhe/monorepo-template/compare/v1.6.0...v1.7.0) (2023-04-25)
 
 
