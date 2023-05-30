@@ -1,3 +1,19 @@
+# [1.8.0-beta.3](https://github.com/busyhe/monorepo-template/compare/v1.8.0-beta.2...v1.8.0-beta.3) (2023-05-30)
+
+
+### Bug Fixes
+
+* **merge:** merge code ([24f0bd5](https://github.com/busyhe/monorepo-template/commit/24f0bd54046e13061e9e2853e5d6735bef1190cc))
+* **release:** udpate ([4c7b50b](https://github.com/busyhe/monorepo-template/commit/4c7b50b97df458e166e9fff24dcad3e971e7316a))
+* **release:** update readme ([544429e](https://github.com/busyhe/monorepo-template/commit/544429eb98d9cd487b65082c1b929fa3efb4ce91))
+* **release:** update readme ([a79c9ea](https://github.com/busyhe/monorepo-template/commit/a79c9eae8144cf98b17b4b9b5ee60c4cde6bdd05))
+* **release:** update readme ([0daab95](https://github.com/busyhe/monorepo-template/commit/0daab950a20b1a20af1c8ff924eb06b380a4926f))
+
+
+### Features
+
+* **release:** update package ([9309b27](https://github.com/busyhe/monorepo-template/commit/9309b27f5849f387129d51afb7e89a2e53f86040))
+
 # [1.8.0-beta.2](https://github.com/busyhe/monorepo-template/compare/v1.8.0-beta.1...v1.8.0-beta.2) (2023-05-30)
 
 

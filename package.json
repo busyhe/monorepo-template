@@ -2,7 +2,7 @@
     "name": "monorepo-template",
     "description": "A monorepo project",
     "author": "busyhe <busyhe@qq.com>",
-    "version": "1.8.0-beta.2",
+    "version": "1.8.0-beta.3",
     "main": "index.js",
     "scripts": {
         "build": "pnpm -r run build",
