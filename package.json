@@ -14,7 +14,8 @@
     "license": "MIT",
     "keywords": [
         "monorepo",
-        "typescript"
+        "typescript",
+        "react"
     ],
     "workspaces": [
         "packages/*"
