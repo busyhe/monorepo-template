@@ -1,55 +1,64 @@
 {
-    "name": "monorepo-template",
-    "description": "A monorepo project",
-    "author": "busyhe <busyhe@qq.com>",
-    "version": "1.7.0",
-    "main": "index.js",
-    "scripts": {
-        "build": "pnpm -r run build",
-        "postinstall": "husky install",
-        "preinstall": "npx only-allow pnpm",
-        "prepack": "pinst --disable",
-        "postpack": "pinst --enable"
-    },
-    "license": "MIT",
-    "keywords": [
-        "monorepo",
-        "typescript"
-    ],
-    "workspaces": [
-        "packages/*"
-    ],
-    "devDependencies": {
-        "@semantic-release/changelog": "^6.0.3",
-        "@semantic-release/git": "^10.0.1",
-        "@typescript-eslint/eslint-plugin": "latest",
-        "@typescript-eslint/parser": "latest",
-        "commitizen": "^4.3.0",
-        "cz-conventional-changelog": "^3.3.0",
-        "eslint-plugin-react": "latest",
-        "husky": "^8.0.3",
-        "lint-staged": "^13.2.1",
-        "pinst": "^3.0.0",
-        "semantic-release": "^21.0.1",
-        "typescript": "^5.0.4"
-    },
-    "bugs": {
-        "url": "https://github.com/busyhe/monorepo-template/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/busyhe/monorepo-template.git"
-    },
-    "config": {
-        "commitizen": {
-            "path": "cz-conventional-changelog"
-        }
-    },
-    "lint-staged": {
-        "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
-    },
-    "packageManager": "pnpm@7.26.0",
-    "engines": {
-        "node": ">=16.0.0"
+  "name": "monorepo-template",
+  "version": "1.7.0",
+  "description": "A monorepo project",
+  "keywords": [
+    "monorepo",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/busyhe/monorepo-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/busyhe/monorepo-template.git"
+  },
+  "license": "MIT",
+  "author": "busyhe <busyhe@qq.com>",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable",
+    "prettier": "prettier --write ."
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.{js,jsx,ts,tsx,vue}": "eslint --no-cache --fix"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     }
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "pinst": "^3.0.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-packagejson": "^2.4.6",
+    "semantic-release": "^21.0.1",
+    "typescript": "^5.0.4"
+  },
+  "packageManager": "pnpm@7.26.0",
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
